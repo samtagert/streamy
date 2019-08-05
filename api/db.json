@@ -1,40 +1,16 @@
 {
   "streams": [
     {
-      "title": "great stream",
-      "description": "excllent bro",
-      "id": 1
+      "title": "unexpected",
+      "description": "whaa?",
+      "userId": "113557204165174003853",
+      "id": 8
     },
     {
-      "title": "banana stream",
-      "description": "who likes banana",
-      "id": 2
-    },
-    {
-      "title": "new stream",
-      "description": "this is a cool stream",
-      "id": 3
-    },
-    {
-      "title": "hello",
-      "description": "omg",
-      "id": 4
-    },
-    {
-      "title": "hello",
-      "description": "asd",
-      "id": 5
-    },
-    {
-      "title": "hello",
-      "description": "hello",
-      "id": 6
-    },
-    {
-      "title": "this one has my id",
-      "description": "banananaanna",
+      "title": "testin new router",
+      "description": "lalalala",
       "userId": "113557204165174003858",
-      "id": 7
+      "id": 9
     }
   ]
 }
