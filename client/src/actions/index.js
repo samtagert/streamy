@@ -41,11 +41,14 @@ export const fetchStream = id => async dispatch => {
 }
 
 export const editStream = (formValues, id) => async dispatch => {
-  const response = await streams.put(`/streams/${id}`, formValues);
-  dispatch({ types: EDIT_STREAM, payload: response.data });
+  console.log('working')
+  const response = await streams.patch(`/streams/${id}`, formValues);
+  dispatch({ type: EDIT_STREAM, payload: response.data });
+  createBrowserHistory.push('/');
 }
 
 export const deleteStream = id => async dispatch => {
   await streams.delete(`/streams/${id}`);
   dispatch({ type: DELETE_STREAM, payload: id });
+  createBrowserHistory.push('/');
 }
